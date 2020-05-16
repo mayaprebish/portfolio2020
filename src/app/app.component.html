@@ -1,5 +1,24 @@
 <div class="app-container">
-  <div class="index-content">
-    <app-about></app-about>
-  </div>
+    <div class="nav-container">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="link">Work</a>
+            </li>
+            <li class="nav-item">
+                <a class="link">Resume</a>
+            </li>
+            <li class="nav-item">
+                <a class="link">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <div class="app-header">
+        <app-header></app-header>
+    </div>
+    <div class="app-content">
+        <app-about></app-about>
+    </div>
+
+    <div appParallax [ratio]="0.3" class="circle" id="circle1"></div>
+    <div appParallax [ratio]="0.1" class="circle" id="circle2"></div>
 </div>

@@ -3,21 +3,76 @@ p {
 }
 
 .app-container {
-    width: 99%;
     background-color: white;
     margin: auto;
 }
 
-.index-content {
+.app-container:before {
+    content: '';
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+
+app-header {
+    width: 100%;
+}
+
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 11em;
+}
+
+.app-content {
     overflow: visible;
     text-align: center;
     font-size: 1.5rem;
-    width: 80%;
+    width: 100%;
     margin: auto;
-    z-index: 2;
-    height: 20em;
 }
 
-#container {
-    width: 100%;
+.app-content:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.nav-container {
+    padding: 0 100px 0 100px;
+    display: flex;
+    justify-content: flex-end;
+    height: 10em;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+}
+
+.nav-item {
+    padding: 0;
+    list-style: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
+#circle1 {
+    z-index: 2;
+    top: 50%;
+    left: 100px;
+}
+
+#circle2 {
+    z-index: 2;
+    bottom: 5%;
+    right: 100px;
 }
