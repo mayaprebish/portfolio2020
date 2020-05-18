@@ -6,3 +6,16 @@
     height: 100%;
     margin: auto;
 }
+
+.title {
+    display: flex;
+}
+
+/* .name {
+    color: black;
+}
+
+.tagline {
+    color: black;
+    font-weight: lighter;
+} */

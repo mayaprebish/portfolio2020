@@ -23,7 +23,7 @@ app-header {
     align-items: center;
     justify-content: center;
     margin: auto;
-    height: 11em;
+    height: 20em;
 }
 
 .app-content {
@@ -41,17 +41,17 @@ app-header {
 }
 
 .nav-container {
-    padding: 0 100px 0 100px;
+    margin: 0 100px 0 100px;
     display: flex;
     justify-content: flex-end;
-    height: 10em;
+    height: 6em;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 15%;
+    width: 20%;
 }
 
 .nav-item {
@@ -61,18 +61,27 @@ app-header {
 
 .nav-item a {
     text-decoration: none;
+    color: gray;
     font-size: 1.2em;
     line-height: 1em;
 }
 
+.nav-item .active {
+    color: black;
+}
+
 #circle1 {
     z-index: 2;
-    top: 50%;
+    top: 65%;
     left: 100px;
+    background-image: url(../assets/me.jpg);
+    background-size: 250px;
 }
 
 #circle2 {
     z-index: 2;
-    bottom: 5%;
+    top: 120%;
     right: 100px;
+    background-image: url(../assets/neu.png);
+    background-size: 250px;
 }

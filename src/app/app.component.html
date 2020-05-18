@@ -1,14 +1,9 @@
 <div class="app-container">
     <div class="nav-container">
         <ul class="nav">
-            <li class="nav-item">
-                <a class="link">Work</a>
-            </li>
-            <li class="nav-item">
-                <a class="link">Resume</a>
-            </li>
-            <li class="nav-item">
-                <a class="link">Contact</a>
+            <li class="nav-item" *ngFor="let page of pages"
+                                (click)="setActive(page)">
+                <a class="link" [class.active]="page === activePage" href="#">{{page}}</a>
             </li>
         </ul>
     </div>
@@ -19,6 +14,6 @@
         <app-about></app-about>
     </div>
 
-    <div appParallax [ratio]="0.3" class="circle" id="circle1"></div>
-    <div appParallax [ratio]="0.1" class="circle" id="circle2"></div>
+    <div appParallax [ratio]="0.7" class="circle" id="circle1"></div>
+    <div appParallax [ratio]="0.7" class="circle" id="circle2"></div>
 </div>
