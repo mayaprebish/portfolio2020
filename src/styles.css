@@ -16,9 +16,27 @@ p, .link {
     font-size: 20px;
 }
 
-.circle {
+.circle-fixed {
     position: fixed;
     width: 250px;
     height: 250px;
     border-radius: 50%;
+}
+
+.circle-unfixed {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.separator {
+    min-height: 100px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: absolute;
+    right: 16px;
+    background-color: lightblue;
+    background-attachment: fixed;
+    background-position: center;
 }

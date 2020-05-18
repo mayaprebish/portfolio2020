@@ -4,8 +4,11 @@
 }
 
 .about-content {
-    position: relative;
     padding: 0 132px;
     margin: 3em auto 0;
     background-color: white;
+}
+
+#education-separator {
+    background-image: url(../../assets/neu.png);
 }

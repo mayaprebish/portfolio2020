@@ -5,6 +5,7 @@ p {
 .app-container {
     background-color: white;
     margin: auto;
+    padding-bottom: 64px;
 }
 
 .app-container:before {

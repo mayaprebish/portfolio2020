@@ -8,14 +8,20 @@
 }
 
 .title {
+    position: absolute;
     display: flex;
+    z-index: 8;
 }
 
-/* .name {
-    color: black;
+.name {
+    color: white;
 }
 
-.tagline {
-    color: black;
-    font-weight: lighter;
-} */
+#circle {
+    position: relative;
+    background-image: url(../../assets/me.png);
+    background-size: 250px;
+    left: -290px;
+    background-attachment: fixed;
+    background-position-y: bottom;
+}
