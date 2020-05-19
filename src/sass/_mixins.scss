@@ -1,0 +1,16 @@
+// desktop
+
+@mixin circle-fixed {
+    position: fixed;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+@mixin circle-unfixed {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+// mobile

@@ -1,3 +1,6 @@
+@import '../sass/mixins';
+@import '../sass/variables';
+
 p {
     font-family: Lato;
 }
@@ -69,14 +72,6 @@ app-header {
 
 .nav-item .active {
     color: black;
-}
-
-#circle1 {
-    z-index: 2;
-    top: 65%;
-    left: 100px;
-    background-image: url(../assets/me.jpg);
-    background-size: 250px;
 }
 
 #circle2 {

@@ -1,5 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Nunito Sans');
+@import './sass/mixins';
+@import './sass/variables';
 
 html,
 body {
@@ -16,18 +18,6 @@ p, .link {
     font-size: 20px;
 }
 
-.circle-fixed {
-    position: fixed;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-}
-
-.circle-unfixed {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-}
 
 .separator {
     min-height: 100px;

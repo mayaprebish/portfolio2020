@@ -1,3 +1,6 @@
+@import '../sass/mixins';
+@import '../sass/variables';
+
 .about-container {
     width: 75%;
     margin: auto;
@@ -7,6 +10,7 @@
     padding: 0 132px;
     margin: 3em auto 0;
     background-color: white;
+    text-align: justify;
 }
 
 #education-separator {
