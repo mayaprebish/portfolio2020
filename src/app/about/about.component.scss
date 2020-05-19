@@ -1,18 +1,14 @@
-@import '../sass/mixins';
-@import '../sass/variables';
+@import '../../sass/mixins';
+@import '../../sass/variables';
 
 .about-container {
-    width: 75%;
-    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin: 3em 2em;
 }
 
 .about-content {
-    padding: 0 132px;
-    margin: 3em auto 0;
     background-color: white;
     text-align: justify;
-}
-
-#education-separator {
-    background-image: url(../../assets/neu.png);
+    width: $text-content-width;
 }

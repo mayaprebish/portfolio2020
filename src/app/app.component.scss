@@ -1,5 +1,5 @@
-@import '../sass/mixins';
-@import '../sass/variables';
+@import "../sass/mixins";
+@import "../sass/variables";
 
 p {
     font-family: Lato;
@@ -7,27 +7,21 @@ p {
 
 .app-container {
     background-color: white;
-    margin: auto;
+    margin: 8px auto;
     padding-bottom: 64px;
-}
 
-.app-container:before {
-    content: '';
-    float: left;
-    height: 100%;
-    width: 100%;
-}
-
-app-header {
-    width: 100%;
+    :before {
+        content: "";
+        float: left;
+        height: 100%;
+        width: 100%;
+    }
 }
 
 .app-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    height: 20em;
+    app-header {
+        width: 100%;
+    }
 }
 
 .app-content {
@@ -36,12 +30,12 @@ app-header {
     font-size: 1.5rem;
     width: 100%;
     margin: auto;
-}
 
-.app-content:after {
-    content: '';
-    display: block;
-    clear: both;
+    :after {
+        content: "";
+        display: block;
+        clear: both;
+    }
 }
 
 .nav-container {
@@ -61,17 +55,17 @@ app-header {
 .nav-item {
     padding: 0;
     list-style: none;
-}
 
-.nav-item a {
-    text-decoration: none;
-    color: gray;
-    font-size: 1.2em;
-    line-height: 1em;
-}
+    a {
+        text-decoration: none;
+        color: gray;
+        font-size: 1.2em;
+        line-height: 1em;
+    }
 
-.nav-item .active {
-    color: black;
+    .active {
+        color: black;
+    }
 }
 
 #circle2 {

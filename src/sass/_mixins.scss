@@ -13,4 +13,10 @@
     border-radius: 50%;
 }
 
+@mixin divider {
+    width: 50%;
+    height: 10px;
+    background-color: black;
+}
+
 // mobile

@@ -18,15 +18,14 @@ p, .link {
     font-size: 20px;
 }
 
+.circle-fixed {
+    @include circle-fixed;
+}
 
-.separator {
-    min-height: 100px;
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    position: absolute;
-    right: 16px;
-    background-color: lightblue;
-    background-attachment: fixed;
-    background-position: center;
+.circle-unfixed {
+    @include circle-unfixed;
+}
+
+.divider {
+    @include divider;
 }
