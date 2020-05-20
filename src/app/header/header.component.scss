@@ -1,0 +1,35 @@
+    @import '../../sass/mixins';
+    @import '../../sass/variables';
+    .header-container {
+        width: 100%;
+        height: 100%;
+        padding-top: 200px;
+    }
+    
+    .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .title {
+        position: relative;
+        display: flex;
+        z-index: 8;
+        left: -158px;
+    }
+    
+    .name {
+        color: white;
+    }
+    
+    #circle {
+        position: relative;
+        background-image: url(../../assets/me.png);
+        background-size: 300px;
+        background-attachment: fixed;
+        background-position-y: center;
+        width: 400px;
+        height: 400px;
+        left: 36px;
+    }
