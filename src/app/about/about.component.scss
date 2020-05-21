@@ -1,10 +1,9 @@
 @import '../../sass/mixins';
 @import '../../sass/variables';
-
 .about-container {
     display: flex;
     justify-content: flex-end;
-    margin: 3em 2em;
+    margin: 3em 2em 0;
 }
 
 .about-content {
