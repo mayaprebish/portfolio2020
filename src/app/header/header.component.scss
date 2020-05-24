@@ -9,7 +9,7 @@
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        min-height: 100vh;
+        min-height: $header-height;
     }
     
     .title {
@@ -23,6 +23,19 @@
         color: white;
     }
     
+    .about-container {
+        display: flex;
+        justify-content: flex-end;
+        height: $tagline-height;
+        margin: 0 2em;
+    }
+    
+    .about-content {
+        background-color: white;
+        text-align: justify;
+        width: $text-content-width;
+    }
+    
     #circle {
         position: relative;
         background-image: url(../../assets/me.png);
@@ -32,4 +45,8 @@
         width: 400px;
         height: 400px;
         left: 36px;
+    }
+    
+    .divider {
+        float: right;
     }
