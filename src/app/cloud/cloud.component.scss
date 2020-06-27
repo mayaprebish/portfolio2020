@@ -1,0 +1,55 @@
+.section-header {
+    position: fixed;
+    margin-left: 100px;
+    .section-title {
+        font-size: 60px;
+        margin-bottom: 0;
+    }
+    .divider {
+        width: 200%;
+    }
+    .mini-menu-wrapper {
+        width: 200%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .mini-menu-items {
+        text-align: right;
+    }
+}
+
+.experience-description {
+    margin: 0 2em;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 16px;
+}
+
+.ex {
+    text-align: justify;
+    width: 50%;
+}
+
+li {
+    list-style: none;
+}
+
+.s100 {
+    font-size: 100px;
+}
+
+.s80 {
+    font-size: 80px;
+}
+
+.s60 {
+    font-size: 60px;
+}
+
+.s40 {
+    font-size: 40px;
+}
+
+.s20 {
+    font-size: 20px;
+}

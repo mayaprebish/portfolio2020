@@ -11,10 +11,11 @@ import { ResumeComponent } from './resume/resume.component';
 import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavComponent } from './nav/nav.component';
+import { CloudComponent } from './cloud/cloud.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, AppRoutingModule ],
-  declarations: [ AppComponent, ParallaxDirective, AboutComponent, ContactComponent, ResumeComponent, HeaderComponent, NavComponent ],
+  declarations: [ AppComponent, ParallaxDirective, AboutComponent, ContactComponent, CloudComponent, ResumeComponent, HeaderComponent, NavComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
