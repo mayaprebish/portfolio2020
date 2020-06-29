@@ -12,10 +12,12 @@ import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavComponent } from './nav/nav.component';
 import { CloudComponent } from './cloud/cloud.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, AppRoutingModule ],
-  declarations: [ AppComponent, ParallaxDirective, AboutComponent, ContactComponent, CloudComponent, ResumeComponent, HeaderComponent, NavComponent ],
+  declarations: [ AppComponent, ParallaxDirective, AboutComponent, ContactComponent, CloudComponent, ResumeComponent, HeaderComponent, NavComponent, ExperienceComponent, ProjectsComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
